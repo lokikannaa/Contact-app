@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.srinivasvarma.contacts.MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="32dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="8dp">
+
+        <Button
+            android:id="@+id/btnCreateNew"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:text="Create New" />
+
+        <Button
+            android:id="@+id/btnEditContact"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Edit Contact" />
+
+        <Button
+            android:id="@+id/btnDeleteContact"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Delete Contact" />
+
+        <Button
+            android:id="@+id/btnDisplayContact"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Display Contact" />
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Finish"
+            android:textSize="25dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
